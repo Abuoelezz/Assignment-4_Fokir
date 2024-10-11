@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fokir</title>
+  <link rel="stylesheet" href="./CSS/all.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+  <script src="./main.js"></script>
+  
+  <!-- start home -->
+
+  <div id="home" class="home">
+    <div class="layer">
+      <div class="nav">
+        <div class="container">
+          <div class="logo special-color">
+            <h2><a href="">Fokir</a></h2>
+          </div>
+          <div class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+    <div class="home-content">
+      <p>Hello i'm</p>
+      <h1 class="special-color">Mohammad Abuoelezz</h1>
+      <p>professional Web <span class="animated-text">Designer</span></p>
+    </div>
+
+    <script>
+      const animatedText = document.querySelector('.animated-text');
+      const texts = ["Designer", "Developer"];
+      let index = 0;
+  
+      setInterval(() => {
+        animatedText.textContent = texts[index];
+        index = (index + 1) % texts.length;
+      }, 2000);
+    </script>
+
+    </div>
+  </div>
+
+  <!-- end home -->
+
+
+  <!-- stat about  -->
+
+  <div id="about" class="about padding">
+    <div class="container">
+      <div class="about-img">
+        <div class="border">
+          <div class="img">
+            <div class="img-layer">
+              <img src="./images/about.jpg" alt="person photo">
+              <div class="layer">
+                <a href="https://www.facebook.com"><i class="fa-brands icones-hover fa-facebook"></i></a>
+                <a href="https://www.x.com"><i class="fa-brands icones-hover fa-x-twitter"></i></a>
+                <a href="https://www.google.com"><i class="fa-brands icones-hover fa-google"></i></a>
+                <a href="https://www.github.com"><i class="fa-brands icones-hover fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2>HELLO,</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ul>
+          <li> <span> Name: </span> Rdam smith </li>
+          <li> <span> Job Title: </span> UI/UX Designer </li>
+          <li> <span> Age: </span> 26 Years </li>
+          <li> <span> Location: </span> United States, US </li>
+          <li> <span>Freelance: </span> Available </li>
+          <li> <span>E-mail: </span> <a href="">example@gmail.com</a> </li>
+          <div class="clear-fix"></div>
+        </ul>
+        <button> Download CV <i class="fa-solid icones-btn fa-download fa-1x"></i></button>
+        <button> Hire Me <i class="fa-solid  icones-btn fa-paper-plane fa-m"></i></button>
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+  </div>
+
+  <!-- end about  -->
+
+
+  <!-- start services -->
+
+    <div id='services' class="service padding">
+      <div class="container">
+        <h2 class="main-heading">Our Services</h2>
+        <div class="serv-item">
+          <div class="dev-icon">
+            <i class=" icones fa-brands fa-x-twitter fa-2x "></i>
+  
+          </div>
+          <h3>UI/UX DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Ratione adipisci mollitia quis necstatibus.</p>
+  
+        </div>
+        <div class="serv-item">
+          <div class="dev-icon">
+            <i class=" fa-solid fa-code icones fa-2x "></i>
+  
+          </div>
+          <h3>APP DEVELOPMENT</h3>
+          <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Ratione adipisci mollitia quis necstatibus.</p>
+  
+        </div>
+        <div class="serv-item">
+          <div class="dev-icon">
+            <i class=" fa-solid fa-chart-line icones  fa-2x "></i>
+          </div>
+          <h3>PRODUCT DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Ratione adipisci mollitia quis necstatibus.</p>
+  
+        </div>
+        <div class="serv-item">
+          <div class="dev-icon">
+            <i class="fa-solid fa-gears icones fa-2x "></i>
+  
+          </div>
+          <h3>UI/UX DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Ratione adipisci mollitia quis necstatibus.</p>
+  
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+
+    <!-- end services -->
+
+
+  <!-- start portfolio -->
+
+  <div id='portfolio' class="Portfolio padding">
+    <div class="container">
+      <h2 class="main-heading">Our Portfolio</h2>
+      <ul>
+        <li><a href="#portfolio">All</a></li>
+        <li><a href="#portfolio">GRAPHIC</a></li>
+        <li><a href="#portfolio">WEB DESIGN</a></li>
+        <li><a href="#portfolio">BRANDING</a></li>
+        <div class="clear-fix"></div>
+      </ul>
+      <div class="main-section">
+        <div class="port-item">
+          <div class="inner">
+            <img src="./images/portfolio/1.jpg" alt="white clock">
+            <div class="layer">
+              <div class="icones-layer">
+                <i class="fa-solid icones-layese  fa-image"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="port-item">
+          <div class="inner"><img src="./images/portfolio/2.jpg" alt="white watch with brown strap">
+            <div class="layer">
+              <div class="icones-layer">
+                <i class="fa-solid icones-layese  fa-image"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="port-item">
+          <div class="inner"><img src="./images/portfolio/3.jpg" alt="cards">
+            <div class="layer">
+              <div class="icones-layer">
+                <i class="fa-solid icones-layese  fa-image"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="port-item">
+          <div class="inner">
+            <img src="./images/portfolio/4.jpg" alt="sport shoes">
+            <div class="layer">
+              <div class="icones-layer">
+                <i class="fa-solid icones-layese  fa-image"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="port-item">
+          <div class="inner">
+            <img src="./images/portfolio/5.jpg" alt="business card">
+            <div class="layer">
+              <div class="icones-layer">
+                <i class="fa-solid icones-layese  fa-image"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="port-item">
+          <div class="inner">
+            <img src="./images/portfolio/6.jpg" alt="small speaker">
+            <div class="layer">
+              <div class="icones-layer">
+                <i class="fa-solid icones-layese  fa-image"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end Portfolio -->
+
+
+  <!-- start testimonial -->
+
+    <div id="testimonial" class="testimonial padding">
+      <div class="container">
+        <h2 class="main-heading">Client's Feedback</h2>
+        <div class="testimonial-item">
+          <div class="item-photo">
+            <img src="./images/feedback.jpg" alt="Alex Ander">
+          </div>
+          <div class="item-content">
+            <div class="brdr"></div>
+            <h3>Alex Ander</h3>
+            <p><i class="fa-solid fa-location-dot"></i>  United</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt,
+              architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.</p>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+      </div>
+    </div>
+
+  <!-- end testimonial -->
+
+
+  <!-- start blog -->
+
+  <div id="blog" class="blog">
+    <div class="container">
+      <h2 class="main-heading">Our Blog</h2>
+      <div class="blog-item">
+        <div class="img">
+          <img src="./images/blog/12.jpg" alt="women">
+        </div>
+        <div class="content">
+          <p>23 November, 2015</p>
+          <h3>Web Design Blog Post</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Tenetur, minima ipsa voluptate corporis facilis officia quisquam nihil
+            quibusdam at velit odit molestias
+            deserunt sequi a magnam sit cupiditate debitis. Fugiat!</p>
+          <a href="#blog">Read More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+      <div class="blog-item">
+        <div class="aspect-ratio">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uVju5--RqtY"
+            title="Envato - Bringing Ideas to Life" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="content">
+          <p>23 November, 2015</p>
+          <h3>Web Design Blog Post</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Tenetur, minima ipsa voluptate corporis facilis officia quisquam nihil
+            quibusdam at velit odit molestias
+            deserunt sequi a magnam sit cupiditate debitis. Fugiat!</p>
+          <a href="#blog">Read More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+      <div class="blog-item">
+        <div class="img">
+          <img src="./images/blog/32.jpg" alt="men">
+        </div>
+        <div class="content">
+          <p>23 November, 2015</p>
+          <h3>Web Design Blog Post</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Tenetur, minima ipsa voluptate corporis facilis officia quisquam nihil
+            quibusdam at velit odit molestias
+            deserunt sequi a magnam sit cupiditate debitis. Fugiat!</p>
+          <a href="#blog">Read More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+  </div>
+
+  <!-- end blog -->
+
+  <!-- start contact -->
+
+    <div id="contact" class="contact padding">
+      <div class="container">
+        <h2 class="main-heading">Contact Us</h2>
+        <div class="contact-form">
+          <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message for Me" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  <!-- end contact -->
+
+  <!-- start footer -->
+  
+  <footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-social-icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com"><i class="fa-brands icones-hover fa-facebook"></i></a></li>
+                        <li><a href="https://www.x.com"><i class="fa-brands icones-hover fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.google.com"><i class="fa-brands icones-hover fa-google"></i></a></li>
+                        <li><a href="https://www.github.com"><i class="fa-brands icones-hover fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <p class="copy-right">Copy Right 2018 &copy; By <a>Theme-fair</a> All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- end footer -->
+  
+</body>
+</html>
